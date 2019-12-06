@@ -1,63 +1,335 @@
 * {
   box-sizing: border-box;
-} 
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+}
+
+a {
+  color: rgb(32, 32, 32);
+  font-size: 14px;
+}
+
 header {
-  height: 100vh;
-  background-color: blue;
-  color: white;
-  padding-top: 10%;
-  border-bottom-left-radius: 50%;
-  border-bottom-right-radius: 50%;
+  background-image: url("../img/fondo.png");
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-x: top;
+  background-size: 50%;
+  padding-bottom: 50px;
+
+  color: rgb(27, 27, 27);
+  background-color: rgb(255, 255, 255);
+}
+.titulos1 {
+  width: 90%;
 }
 
-h1 {
-  margin: 0;
-  text-align: center;
-  font-size: 50px;
+.s0 {
+    display: flex;
+  background-color: rgb(245, 245, 245);
 }
 
-.text-container {
-  width: 80%;
-  margin: 0 auto;
-  padding: 5% 0;
+.s1 {
+  width: 50%;
+
 }
 
-.text-container p {
-  width: 30%;
-  display: inline-block;
-  margin-right: 2%;
-  vertical-align: top;
+.s2 {
+  align-items: flex-start;
+  display: flex;
+  width: 100%;
 }
 
-.about-me {
-  width: 80%;
-  margin: 0 auto;
-  padding: 5% 0;
+.s3 {
+  width: 100%;
 }
 
-img {
-  object-fit: cover;
+.logo {
+  width: 90px;
 }
 
-#profile-img {
-  width: 20%;
+.logo img {
+  margin-top: 7px;
+  width: 100%;
 }
 
-.about-me p {
+.layout-central {
   width: 70%;
-  display: inline-block;
-  vertical-align: top;
+  margin: 0% auto;
+}
+#parrafo-header {
+  width: 60%;
+  font-weight: 100;
+  margin-bottom: 0;
+
+}
+.titulo-header {
+  padding-top: 13%;
+  font-weight: 100;
+  width: 40%;
+}
+.navegador {
+  margin: 0% auto;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-footer a {
-  color: black;
+.menu {
+  display: flex;
+  justify-content: space-between;
+}
+.m1 {
+  margin-left: 10px;
+}
+.m2 {
+  margin-left: 10px;
+}
+.m3 a {
+  color: rgb(255, 255, 255);
+  background-color: #f63f54;
+  padding: 10px;
+  margin-left: 20px;
+}
+.itemmenu {
   text-decoration: none;
 }
-footer a:visited {
-  color: black;
+
+.titulovertical h4 {
+  margin: 63px 5px 0 0;
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  font-size: 13px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 200;
 }
 
-footer a:hover {
-  color: grey;
+.titulo-recap {
+  margin-top: 60px;
+  margin-bottom: 0;
+  text-transform: uppercase;
+  line-height: 70px;
+  font-size: 80px;
+  font-weight: 500;
+  font-family: "Bebas Neue", cursive;
+}
+.about {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 200;
+
+  font-size: 14px;
+}
+.fotosestudio {
+  margin-top: 40px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.img1 img {
+  width: 90%;
+  background-color: red;
 }
 
+.img2 img {
+  width: 90%;
+  background-color: blue;
+  margin-bottom: 50px;
+}
+.cases1 {
+  background-color: rgb(245, 245, 245);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+
+  width: 100%;
+}
+
+.case1 {
+  background-position-x: -50px;
+  margin: 100px 0 100px 0;
+  background-size: contain;
+  width: 50%;
+  height: 500px;
+  background-image: url("../img/case1.png");
+  background-repeat: no-repeat;
+}
+.casetext1 h3 {
+    margin: 0 auto;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 100;
+  
+    font-size: 35px;
+}
+.casetext1 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 200;
+
+  font-size: 14px;
+  width: 35%;
+  
+}
+.button a{
+    font-family: "Montserrat", sans-serif;
+  font-weight: 200;
+
+  font-size: 14px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(20, 20, 20);
+    padding: 5px 50px;
+
+}
+.textcase1{
+    margin: 20px 0 30px 0;
+}
+
+.cases2 {
+
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    
+
+
+}
+
+.casetext2 {
+    order: -1;
+    width: 35%;   }
+
+.columnbullet {
+    position: relative;
+}
+ 
+.line{
+    
+    width: 1px;
+    height: 100px;
+    background-color: rgb(117, 117, 117);}   
+
+ .circulo{
+    position: absolute;
+    left: -3px;
+
+        width: 7px;
+        height: 7px;
+        -webkit-border-radius: 25px;
+        -moz-border-radius: 25px;
+        border-radius: 25px;
+        background: red;
+      
+ }  
+
+ 
+     
+ .columnbullet{
+    
+    flex-direction: column;}
+.textbullet{
+    margin-left: 20px;
+    width: 150px;
+    font-size: 10px;}
+.section{
+    display: flex ;
+
+}
+.contenedor-live{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.live {
+    margin-top: 105px;
+    position: relative;
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.iphone{ position: absolute;
+    transform: scale(0.86);
+    right: -60px;
+    top: -78px;
+    z-index: 1;}
+
+    .case2 {
+        background-position-x:166px;
+    
+        margin: 130px 0 130px 0;
+        background-size: contain;
+        width: 50%;
+        height: 500px;
+        background-image: url("../img/case2.png");
+        background-repeat: no-repeat;
+        
+      }
+.redistribucion{
+    width: 100%;
+align-items: center;
+    display: flex;
+flex-direction: row-reverse;}
+
+
+.skills{ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 50px;
+    height: 60vh;
+
+    background-color: rgb(24, 24, 24);
+}
+.containerskils{ 
+    
+    font-family: "Montserrat", sans-serif;
+    font-weight: 50;
+    font-size: 19px;
+
+    margin: 0 auto;
+    display: flex;
+ justify-content: center;
+ align-items: center;
+   
+    width: 70%;
+}
+.list{
+    
+    color: cornsilk;}
+   
+.container1{
+   
+    padding-left: 200px;
+    width: 50%;
+    color: cornsilk;}
+
+    .container1 li{
+        list-style-type: none;
+        margin-bottom: 14px;}
+    .container2 li{
+        list-style-type: none;
+        margin-bottom: 14px;}
+
+.container2{
+    
+  padding-left: 100px;
+    width: 50%;
+    color: cornsilk;}
+.tituloskils{
+    color: rgb(34, 34, 34);
+    font-size: 30px;
+  font-weight: 500;
+  font-family: "Bebas Neue", cursive;
+}
+.ts h4{
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.ts100{width: 100%;}
